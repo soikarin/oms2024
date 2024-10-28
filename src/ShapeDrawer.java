@@ -1,9 +1,16 @@
-public class ShapeDrawer extends Drawing {
+public class ShapeDrawer extends Drawing<ShapeBasic> {
 
     @Override
     public void draw() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'draw'");
+        if(getBasicShapes().isEmpty() == true) {
+            System.out.println("Drawing is empty!");
+        } else {
+
+        }
+    }
+
+    public void grow() {
+        
     }
     
 }
