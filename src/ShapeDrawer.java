@@ -1,5 +1,5 @@
 public class ShapeDrawer extends Drawing<ShapeBasic> {
-// En tiiä toimiiko, en tehny main funktiota vielä :D
+
     @Override
     public void draw() {
         if(getBasicShapes().isEmpty() == true) {
