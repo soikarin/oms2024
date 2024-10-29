@@ -8,6 +8,7 @@ public class AdapterMain {
         drawer.addBasicShape(visibleRectangle1);
         Rectangle backroundRectangle = new Rectangle();
         backroundRectangle.changeVisibility();
+        System.out.println(backroundRectangle.isVisible());
         drawer.addBasicShape(backroundRectangle);
 
         Circle visibleCircle = new Circle();

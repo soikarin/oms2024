@@ -28,11 +28,11 @@ public class ShapeDrawer extends Drawing<ShapeBasic> {
         } else {
             int count = 1;
             for (ShapeBasic shape : this.getBasicShapes()) {
-                String visibility = shape.isVisible() ? "visible" : "in the background";
+                String visibility = shape.isVisible() ? "in the background" : "visible";
                 System.out.println(count + ". shape is " + visibility + ": " + shape.printText());
                 ++count;
             }
-            System.out.println("Total number of shapes: " + count);
+            System.out.println("Total number of shapes: " + getBasicShapes().size());
         }
     }
     
