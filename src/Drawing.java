@@ -11,6 +11,7 @@ abstract class Drawing<T> {
         }
     }
 
+
     public List<T> getBasicShapes() {
         return shapes;
     }
