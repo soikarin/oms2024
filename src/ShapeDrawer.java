@@ -12,6 +12,7 @@ public class ShapeDrawer extends Drawing<ShapeBasic> {
             for (ShapeBasic shape : this.getBasicShapes()) {
                 shape.draw();
             }
+            System.out.println("");
         }
     }
 
@@ -22,6 +23,7 @@ public class ShapeDrawer extends Drawing<ShapeBasic> {
             for (ShapeBasic shape : this.getBasicShapes()) {
                 shape.grow();
             }
+            System.out.println("");
         }
 
     }
@@ -36,7 +38,7 @@ public class ShapeDrawer extends Drawing<ShapeBasic> {
                 System.out.println(count + ". shape is " + visibility + ": " + shape.printText());
                 ++count;
             }
-            System.out.println("Total number of shapes: " + getBasicShapes().size());
+            System.out.println("\nTotal number of shapes: " + getBasicShapes().size());
         }
     }
     
