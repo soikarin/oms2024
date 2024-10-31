@@ -4,12 +4,15 @@ public interface CanBeColored {
 		if (color == null) {
 			return "No color";
 		}
-		switch (color) {
-			case "Blue":
-			case "Green":
-			case "Red":
-			case "Yellow":
-				return color;
+		switch (color.toLowerCase()) {
+			case "blue":
+				return "Blue";
+			case "green":
+				return "Green";
+			case "red":
+				return "Red";
+			case "yellow":
+				return "Yellow";
 			default:
 				return "No color";
 		}

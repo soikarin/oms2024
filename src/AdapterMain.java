@@ -22,22 +22,22 @@ public class AdapterMain {
 		drawer.addBasicShape(vr2);		
 
 		Triangle t1 = new Triangle("Other color");
-		drawer.addBasicShape(t1);
+		//drawer.addBasicShape(t1);
 
 		ShapeDiamond d1 = new ShapeDiamond("PURPLE");
-		drawer.addBasicShape(d1);
+		//drawer.addBasicShape(d1);
 
 		ShapeDiamond d2 = new ShapeDiamond("somethingElse");
-		drawer.addBasicShape(d2);
+		//drawer.addBasicShape(d2);
 
 		ShapeDiamond d3 = new ShapeDiamond(4.0, 4.0, "Yellow");
-		drawer.addBasicShape(d3);
+		//drawer.addBasicShape(d3);
 
 		Triangle t2 = new Triangle(6.0, 6.0, 6.0, "Blue");
-		drawer.addBasicShape(t2);
+		//drawer.addBasicShape(t2);
 
 		ShapeDiamond d4 = new ShapeDiamond(1.0, 1.0, "Green");
-		drawer.addBasicShape(d4);
+		//drawer.addBasicShape(d4);
 		
 		BrushStroke bs1 = new BrushStroke();
 		drawer.addBasicShape(bs1);
